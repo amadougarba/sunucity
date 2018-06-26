@@ -1,0 +1,30 @@
+{
+  "name": "city",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_utilisateur": {
+      "type": "number",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "login": {
+      "type": "string",
+      "required": true
+    },
+    "password": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
