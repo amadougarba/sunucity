@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "sunu": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://amadou:amadou081092@ds115971.mlab.com:15971/sunu",
+    "database": "sunu",
+    "password": "amadou081092",
+    "name": "sunu",
+    "user": "amadou",
+    "connector": "mongodb"
+  }
+}
